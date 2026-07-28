@@ -31,8 +31,6 @@ header {
   letter-spacing: -0.03em;
 }
 
-/* Main */
-
 main {
   padding: 60px 0;
 }
@@ -62,8 +60,6 @@ h3 {
   font-size: 17px;
 }
 
-/* Navigation */
-
 .jump-nav {
   display: flex;
   flex-wrap: wrap;
@@ -84,8 +80,6 @@ h3 {
   color: white;
 }
 
-/* Artist sections */
-
 section {
   margin-top: 90px;
   padding-top: 50px;
@@ -98,8 +92,6 @@ section > img {
   border-radius: 50%;
   object-fit: cover;
 }
-
-/* Songs */
 
 .songs {
   display: grid;
