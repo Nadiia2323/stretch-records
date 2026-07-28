@@ -17,8 +17,6 @@ body {
   margin-inline: auto;
 }
 
-/* Header */
-
 header {
   padding: 32px 0;
   background: #111;
@@ -126,4 +124,16 @@ section > img {
 .song-card p {
   color: #666;
   margin: 0;
+}
+footer {
+  margin-top: 100px;
+  padding: 40px 0;
+  background: #111;
+  color: white;
+}
+
+footer p {
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
 }
