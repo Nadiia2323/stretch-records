@@ -137,3 +137,44 @@ footer p {
   text-align: center;
   font-size: 14px;
 }
+.newsletter {
+  margin-top: 100px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.field input,
+.field select {
+  font-family: inherit;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+.field input:focus,
+.field select:focus {
+  outline: 3px solid #111;
+}
+
+.field input:required {
+  border-left: 4px solid #111;
+}
+
+button {
+  background: #111;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
